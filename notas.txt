@@ -1,0 +1,25 @@
+
+en groups/create.ejs creo un campo para subir archivos que se llama Imagen de grupo
+
+en group.js crear la const storage
+crear const path
+crear const upload
+en router post agregar upload.single('group-image') 
+group-image es el nombre del campo en create.ejs 
+
+no incorpora la imagen
+
+
+--------------------------------------------------------------------------------
+
+https://github.com/codelando/dh-node-multer-instalacion
+
+en terminal npm install multer
+
+en el formulario enctype="multipart/form-data"
+
+queda <form action="/register" method="POST" enctype="multipart/form-data">
+
+en la carpeta de rutas, en el ejemplo routes/group.js const multer = require('multer');
+
+para ejecutar npm start
